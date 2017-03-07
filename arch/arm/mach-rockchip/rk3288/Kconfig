@@ -18,6 +18,12 @@ config TARGET_EVB_RK3288
 	  also includes on-board eMMC and 2GB of SDRAM. Expansion connectors
 	  provide access to display pins, I2C, SPI, UART and GPIOs.
 
+config TARGET_KOALA_RK3288
+        bool "koala-rk3288"
+        select BOARD_LATE_INIT
+        help
+          KOALA-RK3288 is a RK3288-based development board of MQmaker Ltd.
+
 config TARGET_FENNEC_RK3288
 	bool "Fennec-RK3288"
 	select BOARD_LATE_INIT
@@ -129,6 +135,8 @@ source "board/google/veyron/Kconfig"
 source "board/radxa/rock2/Kconfig"
 
 source "board/rockchip/evb_rk3288/Kconfig"
+
+source "board/rockchip/koala_rk3288/Kconfig"
 
 source "board/rockchip/fennec_rk3288/Kconfig"
 

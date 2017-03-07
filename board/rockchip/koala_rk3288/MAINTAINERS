@@ -1,0 +1,6 @@
+KOALA-RK3288
+M:	Benn Huang <benn@mqmaker.com>
+S:	Maintained
+F:	board/rockchip/koala_rk3288
+F:	include/configs/koala_rk3288.h
+F:	configs/koala-rk3288_defconfig

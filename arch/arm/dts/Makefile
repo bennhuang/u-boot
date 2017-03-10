@@ -36,6 +36,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3288-rock2-square.dtb \
 	rk3288-evb.dtb \
 	rk3288-koala.dtb \
+	rk3288-twys.dtb \
 	rk3288-fennec.dtb \
 	rk3288-tinker.dtb \
 	rk3288-popmetal.dtb \

@@ -1,0 +1,6 @@
+TWYS-RK3288
+M:	Benn Huang <benn@mqmaker.com>
+S:	Maintained
+F:	board/rockchip/twys_rk3288
+F:	include/configs/twys_rk3288.h
+F:	configs/twys-rk3288_defconfig

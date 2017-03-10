@@ -24,6 +24,13 @@ config TARGET_KOALA_RK3288
         help
           KOALA-RK3288 is a RK3288-based development board of MQmaker Ltd.
 
+config TARGET_TWYS_RK3288
+        bool "twys-rk3288"
+        select BOARD_LATE_INIT
+        help
+          TWYS-RK3288 is a RK3288-based development board of MQmaker Ltd.
+
+
 config TARGET_FENNEC_RK3288
 	bool "Fennec-RK3288"
 	select BOARD_LATE_INIT
@@ -137,6 +144,8 @@ source "board/radxa/rock2/Kconfig"
 source "board/rockchip/evb_rk3288/Kconfig"
 
 source "board/rockchip/koala_rk3288/Kconfig"
+
+source "board/rockchip/twys_rk3288/Kconfig"
 
 source "board/rockchip/fennec_rk3288/Kconfig"
 
